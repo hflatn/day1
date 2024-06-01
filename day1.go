@@ -10,7 +10,7 @@ import (
 
 
 func FindNumbers(message []string) int {
-	//test
+	//tests
 	var all_numbers int
 	for _, word := range message {
 		var foundNumber strings.Builder
